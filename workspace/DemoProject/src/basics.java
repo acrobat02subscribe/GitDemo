@@ -58,6 +58,7 @@ public class basics {
 		String address = js1.get("address");
 		System.out.println("address : "+address);
 		
+		//For testing git related stuff
 		System.out.println("Newly added line just for fun");
 		
 		System.out.println("Newly added line just for test");
@@ -66,6 +67,10 @@ public class basics {
 		/////////////////////////////////////////////
 		System.out.println("Architech 1 test");
 		System.out.println("Architech 1 test");
+		/////////////////////////////////////////////
+		System.out.println("Architech 2 test");
+		System.out.println("Architech 2 test");
+		
 
 
 	}
