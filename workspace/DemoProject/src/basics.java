@@ -63,6 +63,10 @@ public class basics {
 		System.out.println("Newly added line just for test");
 		System.out.println("Newly added line just for test");
 		System.out.println("Newly added line just for test");
+		/////////////////////////////////////////////
+		System.out.println("Architech 1 test");
+		System.out.println("Architech 1 test");
+
 
 	}
 
