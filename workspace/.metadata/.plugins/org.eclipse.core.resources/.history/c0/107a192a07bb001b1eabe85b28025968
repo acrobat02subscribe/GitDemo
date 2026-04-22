@@ -1,0 +1,25 @@
+import static io.restassured.RestAssured.given;
+
+import files.payload;
+import io.restassured.RestAssured;
+
+public class basics {
+
+	public static void main(String[] args) {
+		// Validating Add place API
+		
+		/* given - all input details
+		   when - submit the API --> resource and http method
+		   then - validate the response 
+		*/
+	
+		RestAssured.baseURI = "https://rahulshettyacademy.com";
+		
+		 given().log().all().queryParam("key", "qaclick123")
+					.header("Content-Type","application/json")
+					.body(payload.addPlace())
+		.when().post("maps/api/place/add/json")
+		.then().log().all().assertThat().statusCode(200);
+	}
+
+}

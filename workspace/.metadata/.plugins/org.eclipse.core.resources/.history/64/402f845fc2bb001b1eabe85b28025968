@@ -1,0 +1,35 @@
+import java.util.Iterator;
+
+import files.payloadAddAPI;
+import io.restassured.path.json.JsonPath;
+
+public class ComplexJsonParse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		JsonPath js = new JsonPath(payloadAddAPI.complexJson());
+		//Print no of courses returned by API
+		int count = js.getInt("courses.size()");
+		System.out.println("No of courses : "+count);
+		
+		//Print Purchase amount
+		int purchaseAmt = js.getInt("dashboard.purchaseAmount");
+		System.out.println("Purchase Amount : "+purchaseAmt);
+		
+		//Print title of first course
+		String title = js.getString("courses[0].title");
+		System.out.println("Course Title : "+title);
+		
+		//Print number of copies sold by "RPA" course
+		int noOfCopies = js.getInt("courses[2].copies");
+		System.out.println("No. of copies sold by RPA course : "+noOfCopies);
+		
+		//Print all courses titles and their respective prices.
+		for(int i=0;i<count;i++) {
+			System.out.println(title);
+			
+		}
+	}
+
+}

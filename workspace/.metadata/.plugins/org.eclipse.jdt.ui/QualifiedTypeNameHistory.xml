@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="io.restassured.RestAssured"/>
+    <fullyQualifiedTypeName name="files.payload"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xpath.internal.operations.Equals"/>
+    <fullyQualifiedTypeName name="org.hamcrest.core.IsEqual"/>
+    <fullyQualifiedTypeName name="org.hamcrest.Matchers"/>
+    <fullyQualifiedTypeName name="files.payloadUpdateAPI"/>
+    <fullyQualifiedTypeName name="com.sun.tools.sjavac.Package"/>
+    <fullyQualifiedTypeName name="org.apache.http.impl.auth.BasicScheme"/>
+    <fullyQualifiedTypeName name="basics"/>
+    <fullyQualifiedTypeName name="files.payloadAddAPI"/>
+    <fullyQualifiedTypeName name="io.restassured.path.json.JsonPath"/>
+</qualifiedTypeNameHistroy>

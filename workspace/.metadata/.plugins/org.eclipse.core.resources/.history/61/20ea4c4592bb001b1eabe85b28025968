@@ -1,0 +1,14 @@
+package files;
+
+public class payloadUpdateAPI {
+	
+	public static String updatePlace() {
+		return "{\r\n"
+				+ "\"place_id\":\""+"\",\r\n"
+				+ "\"address\":\"70 winter walk, USA\",\r\n"
+				+ "\"key\":\"qaclick123\"\r\n"
+				+ "}\r\n"
+				+ "";
+	}
+
+}
