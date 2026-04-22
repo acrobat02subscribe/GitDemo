@@ -57,6 +57,8 @@ public class basics {
 		JsonPath js1 = new JsonPath(getPlace);
 		String address = js1.get("address");
 		System.out.println("address : "+address);
+		
+		System.out.println("Newly added line just for fun");
 	}
 
 }
