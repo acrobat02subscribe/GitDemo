@@ -59,6 +59,11 @@ public class basics {
 		System.out.println("address : "+address);
 		
 		System.out.println("Newly added line just for fun");
+		
+		System.out.println("Newly added line just for test");
+		System.out.println("Newly added line just for test");
+		System.out.println("Newly added line just for test");
+
 	}
 
 }
